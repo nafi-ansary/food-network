@@ -4,6 +4,10 @@ body{
 h1{
     font-size: 50px;
 }
+section{
+    height: 500px;
+    padding-bottom: 250px;
+}
 span{
     color: orangered;
 }
@@ -25,5 +29,24 @@ span{
     width: 100%;
 }
 .image-size{
-    height: 700px;
+    height: 600px;
+}
+.third-part{
+    text-align: center;
+}
+.second-part{
+    background-image: url(images/Frame\ 57.jpg);
+}
+.one-third-width{
+    float: left;
+    width: 25%;
+    margin-left: 3.5%;
+    padding: 2%;
+}
+.one-third-width img{
+    width: 100%;
+}
+.shadow{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 15px;
 }
